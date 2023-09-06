@@ -1,4 +1,7 @@
 /*mobile version*/
+body{
+    background-color: #faf8f8;
+}
 
 .page {
     display: flex;
@@ -21,16 +24,29 @@
 }
 
 .personalia-content__category-title {
-    color: rgba(39, 140, 39, 0.96);
-    
+    color: rgba(39, 140, 39, 0.96);  
+}
+
+.personalia-content__element{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.personalia-content__title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 6px;
 }
 
 .personalia-content__description{
-    
+    color: rgba(71, 71, 71, 0.96);
+    margin-top: 0px;
+    font-size: 14px;
 }
 
 .profile {
-    background-color: #faf8f8;
     width: 100%;
 }
 
